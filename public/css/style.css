@@ -1,0 +1,33 @@
+
+/* Remove as margens padrão */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    min-height: 75px;
+}
+
+.navbar-brand {
+    color: #14532d;
+    font-size: 1.4rem;
+}
+
+/* Área principal com a bandeira */
+main {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url('../img/bandeira.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Conteúdo sobre a imagem */
+main h1,
+main p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}

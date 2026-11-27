@@ -1,0 +1,17 @@
+
+{
+    "name": "acsa/sistema-cidadao",
+    "description": "Sistema de Cadastro e Consulta de Cidadãos",
+    "autoload": {
+        "psr-4": {
+            "Acsa\\SistemaCidadao\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Acsa Silveira",
+            "email": "acsasilveira.ti@gmail.com"
+        }
+    ],
+    "require": {}
+}
